@@ -1,0 +1,3 @@
+SELECT a.sno
+FROM sc a,sc b
+WHERE a.sno = b.sno AND a.cno='c001' AND b.cno='c002' AND a.score > b.score
